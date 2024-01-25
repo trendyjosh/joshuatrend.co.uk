@@ -2,13 +2,33 @@
     <header>
         <h1>Projects</h1>
     </header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto dolore id ipsum optio quod saepe similique ullam vero. Beatae commodi excepturi facere maiores nobis pariatur possimus quod reiciendis voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam rem repellat similique temporibus veniam! Aliquid, asperiores beatae cupiditate ducimus error exercitationem hic, iste quae quia quis reiciendis tempora tempore voluptatum!</p>
-    <figure>
-        <img src="https://placehold.co/600x400" alt="">
-    </figure>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur doloribus, dolorum earum enim et eveniet facere facilis fuga fugit ipsa labore maxime minus molestias nulla placeat quibusdam repudiandae rerum soluta.</p>
+    <p>A selection of past and current personal projects I have worked on in my spare time.</p>
+
     <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem doloremque iste iure nulla quis? Accusamus assumenda dicta, ea eaque enim eveniet facilis minus nemo nisi nobis, possimus provident velit voluptatum?</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi aut, autem commodi corporis dolorem dolorum eligendi ipsa nesciunt nostrum quam qui quos ratione reiciendis rem. Ducimus laboriosam minima soluta.</p>
+
+    <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/invoice-management-system">Invoice System</a></h2>
+    <span class="project-tags">#Laravel, #TailwindCSS, #VueJS, #TypeScript</span>
+    <p>A very simple CMS for the purpose of generating invoices for customers.</p>
+    <p>Deployed using Laravel Forge.</p>
+    <figure>
+        <img src="{{ asset('/storage/invoice-system.jpg') }}" alt="Invoice System Invoices Page">
+        <figcaption>The invoice management page</figcaption>
+    </figure>
+
+    <hr>
+
+    <h2 class="project-title"><a target="_blank" href="https://camerontrenddesign.co.uk/">Garden Design Portfolio</a></h2>
+    <span class="project-tags">#PHP, #CSS</span>
+    <p>A Garden Design portfolio website to showcase completed designs. Developed with vanilla CSS and JavaScript with minimal PHP for the dynamic content. The site also makes use of the Instagram API to display the most recent posts.</p>
+    <figure>
+        <img src="{{ asset('/storage/cameron-trend-design.jpg') }}" alt="Cameron Trend Design Landing Page">
+        <figcaption>The website landing page</figcaption>
+    </figure>
+    <p>Future development will include a backend CMS to add and update the list of portfolio gardens. This will also include a basic page builder to position the image and text content on each project page.</p>
+
+    <hr>
+
+    <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/joshtea-bot">Discord Music Player</a></h2>
+    <span class="project-tags">#NodeJS, #TypeScript</span>
+    <p>A Discord bot to queue and play music in a voice channel. Written in TypeScript and built with the <a href="https://www.sapphirejs.dev/">Sapphire</a> Discord.js framework.</p>
 </x-layout>
