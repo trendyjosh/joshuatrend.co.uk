@@ -11,7 +11,7 @@
     <p>A very simple CMS for the purpose of generating invoices for customers.</p>
     <p>Deployed using Laravel Forge.</p>
     <figure>
-        <img src="{{ asset('/storage/invoice-system.jpg') }}" alt="Invoice System Invoices Page">
+        <img src="{{ asset('/media/invoice-system.jpg') }}" alt="Invoice System Invoices Page">
         <figcaption>The invoice management page</figcaption>
     </figure>
 
@@ -21,7 +21,7 @@
     <span class="project-tags">#PHP, #CSS</span>
     <p>A Garden Design portfolio website to showcase completed designs. Developed with vanilla CSS and JavaScript with minimal PHP for the dynamic content. The site also makes use of the Instagram API to display the most recent posts.</p>
     <figure>
-        <img src="{{ asset('/storage/cameron-trend-design.jpg') }}" alt="Cameron Trend Design Landing Page">
+        <img src="{{ asset('/media/cameron-trend-design.jpg') }}" alt="Cameron Trend Design Landing Page">
         <figcaption>The website landing page</figcaption>
     </figure>
     <p>Future development will include a backend CMS to add and update the list of portfolio gardens. This will also include a basic page builder to position the image and text content on each project page.</p>
