@@ -126,11 +126,7 @@ a:hover {
     color: var(--text-secondary);
 }
 
-.sidebar a, footer a {
-    color: inherit;
-}
-
-.sidebar a:after {
+.sidebar a:after, .project-title a:after {
     padding-left: calc(var(--spacing) / 5);
     position: absolute;
 }
@@ -142,7 +138,7 @@ a:hover {
     content: '#';
 }
 
-.sidebar a[target=_blank]:hover:after {
+.sidebar a[target=_blank]:hover:after, .project-title a:hover:after {
     color: var(--text-secondary);
     content: "↗";
     font-family: system-ui;
@@ -180,18 +176,33 @@ article>*:not(hr,figure) {
 
 article a {
     text-decoration: underline;
+    text-decoration-color: var(--text-secondary);
 }
 
-article figure {
+article a:hover {
+    text-decoration-color: var(--text-primary);
+}
+
+article figure img {
     position: relative;
     left: calc(var(--spacing) * -6);
     width: calc(100% + var(--spacing) * 6);
 }
 
+article figure figcaption {
+    color: var(--text-secondary);
+    padding-left: calc(var(--spacing) * 3);
+    font-size: var(--text-sm);
+}
+
 @media (max-width: 600px) {
-    article figure {
+    article figure img {
         left: unset;
         width: 100%;
+    }
+
+    article figure figcaption {
+        padding-left: 0;
     }
 }
 
@@ -204,6 +215,11 @@ article hr {
 figure img {
     width: 100%;
     border: 1px solid var(--fg);
+}
+
+.project-tags {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
 }
 
 .footer {
