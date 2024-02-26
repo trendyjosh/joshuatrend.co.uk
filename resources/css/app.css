@@ -151,6 +151,10 @@ a:hover {
     list-style: none;
 }
 
+.sidebar li {
+    margin-bottom: 6px;
+}
+
 article {
     grid-column: content-start / content-end;
     padding-top: calc(var(--spacing) * 4);
