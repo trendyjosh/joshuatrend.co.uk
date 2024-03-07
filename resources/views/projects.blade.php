@@ -36,5 +36,5 @@
 
     <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/clickup-bot">Discord ClickUp WIP</a></h2>
     <span class="project-tags">#NodeJS, #TypeScript</span>
-    <p>A Discord bot to create and manage <a href="https://clickup.com/">ClickUp</a> tasks. Written in TypeScript and built with the <a href="https://www.sapphirejs.dev/">Sapphire</a> Discord.js framework.</p>
+    <p>A Discord bot to create and manage <a href="https://clickup.com/">ClickUp</a> tasks by interfacing with the ClickUp API. Written in TypeScript and built with the <a href="https://www.sapphirejs.dev/">Sapphire</a> Discord.js framework.</p>
 </x-layout>
