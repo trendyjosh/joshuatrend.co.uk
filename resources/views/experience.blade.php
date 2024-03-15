@@ -2,12 +2,12 @@
     <header>
         <h1>Experience</h1>
     </header>
-    <p>A breakdown of my professional experience.</p>
+    <p>A breakdown of my relevant professional experience.</p>
 
     <hr>
 
     <h2>Webscript Designs</h2>
-    <span class="project-tags">August 2021 - present</span>
+    <span class="project-tags">October 2022 - present</span>
     <div class="experience-entry">
         <h3>Senior PHP Deveoper</h3>
         <span class="project-tags">October 2022 - present</span>
@@ -18,6 +18,27 @@
             <li>Mentoring junior developers and establishing coding standards</li>
         </ul>
     </div>
+
+    <hr>
+
+    <h2>Self Employed</h2>
+    <span class="project-tags">June 2017 - present</span>
+    <div class="experience-entry">
+        <h3>PHP Deveoper</h3>
+        <span class="project-tags">June 2017 - present</span>
+        <ul>
+            <li>Design and Development of full stack PHP/JavaScript and Laravel/Vue web applications</li>
+            <li>Deployment using GitHub Actions or Laravel Forge</li>
+            <li>Linux server management and configuration</li>
+            <li>Meeting with clients to discuss requirements and timelines</li>
+            <li>Migration of data from existing systems</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <h2>Uprise Digital</h2>
+    <span class="project-tags">August 2021 - October 2022</span>
     <div class="experience-entry">
         <h3>PHP Deveoper</h3>
         <span class="project-tags">August 2021 - October 2022</span>
@@ -31,24 +52,8 @@
 
     <hr>
 
-    <h2>Self Employed</h2>
-    <span class="project-tags">June 2017 - present</span>
-    <div class="experience-entry">
-        <h3>PHP Deveoper</h3>
-        <span class="project-tags">June 2017 - present</span>
-        <ul>
-            <li>Design and Development of full stack PHP/Vanilla JS and Laravel 10/Vue 3 web applications</li>
-            <li>Deployment using GitHub Actions or Laravel Forge</li>
-            <li>Linux server management and configuration</li>
-            <li>Meeting with clients to discuss requirements and timelines</li>
-            <li>Migration of data from old systems</li>
-        </ul>
-    </div>
-
-    <hr>
-
     <h2>NHS Trust</h2>
-    <span class="project-tags">February 2017 - August 2021</span>
+    <span class="project-tags">January 2017 - August 2021</span>
     <div class="experience-entry">
         <h3>Clinical Systems Analyst</h3>
         <span class="project-tags">October 2020 - August 2021</span>
@@ -65,11 +70,11 @@
             <li>1st and 2nd line support for clinical systems</li>
             <li>Delivering systems training to new staff</li>
             <li>Support during new system rollouts</li>
-            <li>Running complex SQL queries to generate reports for various heads of departments</li>
+            <li>Running complex SQL queries to generate reports for various department heads</li>
         </ul>
     </div>
     <div class="experience-entry">
         <h3>Health Records Clerk</h3>
-        <span class="project-tags">February 2017 - July 2019</span>
+        <span class="project-tags">January 2017 - July 2019</span>
     </div>
 </x-layout>
