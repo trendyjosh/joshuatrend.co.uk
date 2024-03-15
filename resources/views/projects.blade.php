@@ -18,13 +18,14 @@
     <hr>
 
     <h2 class="project-title"><a target="_blank" href="https://camerontrenddesign.co.uk/">Garden Design Portfolio</a></h2>
-    <span class="project-tags">#PHP, #CSS</span>
-    <p>A Garden Design portfolio website to showcase completed designs. Developed with vanilla CSS and JavaScript with minimal PHP for the dynamic content. The site also makes use of the Instagram API to display the most recent posts.</p>
+    <span class="project-tags">#Laravel, #Blade, #TailwindCSS, #VueJS</span>
+    <p>A Garden Design portfolio website to showcase completed designs. Developed with vanilla CSS and JavaScript for the front-end site, then Tailwind and VueJS for the admin panel. The site also makes use of the Instagram API to display the most recent posts.</p>
     <figure>
         <img src="{{ asset('/media/cameron-trend-design.jpg') }}" alt="Cameron Trend Design Landing Page">
         <figcaption>The website landing page</figcaption>
     </figure>
-    <p>Future development will include a backend CMS to add and update the list of portfolio gardens. This will also include a basic page builder to position the image and text content on each project page.</p>
+    <p>Future development will include traffic metrics provided by the Cloudflare Graph API.</p>
+    <p>Deployed using Laravel Forge.</p>
 
     <hr>
 
