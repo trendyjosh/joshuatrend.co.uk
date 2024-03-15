@@ -161,7 +161,7 @@ article {
     border-left: 1px solid var(--fg);
 }
 
-article>*:not(header) {
+article>*:not(header, ul) {
     margin-top: calc(var(--spacing) * 2);
 }
 
@@ -226,6 +226,26 @@ figure img {
 .project-tags {
     font-size: var(--text-sm);
     color: var(--text-secondary);
+}
+
+article ul {
+    list-style: none;
+}
+
+article li {
+    position: relative;
+    padding-left: var(--spacing);
+}
+
+article li::before {
+    content: "-";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.experience-entry>* {
+    padding-left: var(--spacing);
 }
 
 .footer {
