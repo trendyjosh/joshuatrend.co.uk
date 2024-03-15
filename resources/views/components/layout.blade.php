@@ -17,7 +17,7 @@
     </article>
     <footer class="footer">
         <p>
-            <a href="/">Joshua Trend</a> | 2024
+            <a href="{{ route('index') }}">Joshua Trend</a> | 2024
         </p>
     </footer>
 </div>
