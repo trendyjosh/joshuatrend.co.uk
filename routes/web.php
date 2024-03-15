@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::controller(Controller::class)->group(function () {
     // Home page
     Route::get('/', 'index')->name('index');
+    // Experience
+    Route::get('/experience', 'experience')->name('experience');
     // Projects
     Route::get('/projects', 'projects')->name('projects');
 });

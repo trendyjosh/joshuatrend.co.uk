@@ -20,6 +20,13 @@ class Controller extends BaseController
     }
 
     /**
+     * Show the professional experience page.
+     */
+    public function experience(Request $request): View {
+        return view('experience');
+    }
+
+    /**
      * Show the projects page.
      */
     public function projects(Request $request): View {
