@@ -53,9 +53,9 @@
         <h3>Clinical Systems Analyst</h3>
         <span class="project-tags">October 2020 - August 2021</span>
         <ul>
-            <li>Liaising with different departments to determine requirements</li>
+            <li>Liaising with different departments to determine requirements of new and existing internal systems</li>
             <li>QA testing new systems</li>
-            <li>Running database reports</li>
+            <li>SQL database management</li>
         </ul>
     </div>
     <div class="experience-entry">
@@ -65,6 +65,7 @@
             <li>1st and 2nd line support for clinical systems</li>
             <li>Delivering systems training to new staff</li>
             <li>Support during new system rollouts</li>
+            <li>Running complex SQL queries to generate reports for various heads of departments</li>
         </ul>
     </div>
     <div class="experience-entry">
