@@ -37,10 +37,11 @@
         <h3>PHP Deveoper</h3>
         <span class="project-tags">June 2017 - present</span>
         <ul>
-            <li>Leading development on full stack Laravel 10/Vue 3 web applications</li>
-            <li>Implementing CI/CD with Docker (Sail) and Laravel Forge</li>
+            <li>Design and Development of full stack PHP/Vanilla JS and Laravel 10/Vue 3 web applications</li>
+            <li>Deployment using GitHub Actions or Laravel Forge</li>
             <li>Linux server management and configuration</li>
-            <li>Mentoring junior developers and establishing coding standards</li>
+            <li>Meeting with clients to discuss requirements and timelines</li>
+            <li>Migration of data from old systems</li>
         </ul>
     </div>
 
