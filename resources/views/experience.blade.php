@@ -9,7 +9,7 @@
     <h2>Webscript Designs</h2>
     <span class="project-tags">October 2022 - present</span>
     <div class="experience-entry">
-        <h3>Senior PHP Deveoper</h3>
+        <h3>Senior PHP Developer</h3>
         <span class="project-tags">October 2022 - present</span>
         <ul>
             <li>Leading development on full stack Laravel 10/Vue 3 web applications</li>
@@ -24,7 +24,7 @@
     <h2>Self Employed</h2>
     <span class="project-tags">June 2017 - present</span>
     <div class="experience-entry">
-        <h3>PHP Deveoper</h3>
+        <h3>PHP Developer</h3>
         <span class="project-tags">June 2017 - present</span>
         <ul>
             <li>Design and Development of full stack PHP/JavaScript and Laravel/Vue web applications</li>
@@ -40,7 +40,7 @@
     <h2>Uprise Digital</h2>
     <span class="project-tags">August 2021 - October 2022</span>
     <div class="experience-entry">
-        <h3>PHP Deveoper</h3>
+        <h3>PHP Developer</h3>
         <span class="project-tags">August 2021 - October 2022</span>
         <ul>
             <li>Development and maintenance of full-stack PHP applications</li>
