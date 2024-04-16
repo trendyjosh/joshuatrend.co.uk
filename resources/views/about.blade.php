@@ -7,5 +7,5 @@
     <figure>
         <img src="{{ asset('/media/joshua-trend.jpg') }}" alt="Joshua Trend">
     </figure>
-    <p>Design inspired by <a target="_blank" href="https://sebastiandedeyne.com/">Sebastian De Deyne</a> and <a target="_blank" href="https://carlbarenbrug.com/">Carl Barenbrug</a>.</p>
+    <p>Website design inspired by <a target="_blank" href="https://sebastiandedeyne.com/">Sebastian De Deyne</a> and <a target="_blank" href="https://carlbarenbrug.com/">Carl Barenbrug</a>.</p>
 </x-layout>
