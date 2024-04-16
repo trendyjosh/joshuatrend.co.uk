@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@200..800&display=swap');
+@font-face {
+    font-family: "ISL Jupiter";
+    src: url("../fonts/Jupiter.woff2") format("woff2"),
+        url("../fonts/Jupiter.woff") format("woff");
+}
 
 :root {
     --spacing: 1rem;
-    --font-family: "Manrope", sans-serif;
+    --font-family: "ISL Jupiter", sans-serif;
     --font-size: 16px;
     --line-height: 1.5;
     --white: #ffffff;
@@ -10,7 +14,7 @@
     --grey2: #6f6f6f;
     --grey3: #a0a0a0;
     --grey4: #e5e5e5;
-    --text-sm: .85rem;
+    --text-sm: 0.85rem;
     --text-md: 1rem;
     --text-lg: 1.2rem;
     --text-xl: 1.4rem;
@@ -33,7 +37,7 @@
 
 @media (max-width: 600px) {
     :root {
-        --spacing: .5rem
+        --spacing: 0.5rem;
     }
 }
 
@@ -68,7 +72,10 @@ a:hover {
 
 .grid {
     display: grid;
-    grid-template-columns: [left] minmax(calc(var(--spacing) * 2),1fr) [sidebar-start] auto [sidebar-end content-start] minmax(20rem,32rem) [content-end] minmax(calc(var(--spacing) * 2),1fr) [right];
+    grid-template-columns:
+        [left] minmax(calc(var(--spacing) * 2), 1fr)
+        [sidebar-start] auto [sidebar-end content-start] minmax(20rem, 32rem)
+        [content-end] minmax(calc(var(--spacing) * 2), 1fr) [right];
     -moz-column-gap: calc(var(--spacing) * 3);
     column-gap: calc(var(--spacing) * 3);
     padding: 0 calc(var(--spacing) * 2);
@@ -76,10 +83,15 @@ a:hover {
 
 @media (max-width: 600px) {
     .grid {
-        grid-template-columns:[left] calc(var(--spacing) * 2) [sidebar-start content-start] auto [sidebar-end content-end] calc(var(--spacing) * 2) [right];
+        grid-template-columns:
+            [left] calc(var(--spacing) * 2)
+            [sidebar-start content-start] auto [sidebar-end content-end] calc(
+                var(--spacing) * 2
+            )
+            [right];
         -moz-column-gap: 0;
         column-gap: 0;
-        padding: 0
+        padding: 0;
     }
 }
 
@@ -98,8 +110,8 @@ a:hover {
 @media (max-width: 600px) {
     .sidebar {
         grid-template-areas:
-        "header header"
-        "pages socials";
+            "header header"
+            "pages socials";
         padding-bottom: calc(var(--spacing) * 4);
     }
 }
@@ -128,19 +140,21 @@ a:hover {
     color: var(--text-secondary);
 }
 
-.sidebar a:after, .project-title a:after {
+.sidebar a:after,
+.project-title a:after {
     padding-left: calc(var(--spacing) / 5);
     position: absolute;
 }
 
-.sidebar a[aria-current=page]:after {
+.sidebar a[aria-current="page"]:after {
     color: var(--text-secondary);
     padding-left: calc(var(--spacing) / 5);
     position: absolute;
-    content: '#';
+    content: "#";
 }
 
-.sidebar a[target=_blank]:hover:after, .project-title a:hover:after {
+.sidebar a[target="_blank"]:hover:after,
+.project-title a:hover:after {
     color: var(--text-secondary);
     content: "↗";
     font-family: system-ui;
@@ -161,11 +175,11 @@ article {
     border-left: 1px solid var(--fg);
 }
 
-article>*:not(header, ul) {
+article > *:not(header, ul) {
     margin-top: calc(var(--spacing) * 2);
 }
 
-article>*:not(hr,figure) {
+article > *:not(hr, figure) {
     padding-left: calc(var(--spacing) * 3);
 }
 
@@ -175,7 +189,7 @@ article>*:not(hr,figure) {
         border-top: 1px solid var(--fg);
     }
 
-    article>*:not(hr,figure) {
+    article > *:not(hr, figure) {
         padding-left: 0;
     }
 }
@@ -244,7 +258,7 @@ article li::before {
     left: 0;
 }
 
-.experience-entry>* {
+.experience-entry > * {
     padding-left: var(--spacing);
 }
 
