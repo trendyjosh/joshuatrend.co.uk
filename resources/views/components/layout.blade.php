@@ -38,7 +38,7 @@ View the source code here: https://github.com/trendyjosh/joshuatrend.co.uk
         </article>
         <footer class="footer">
             <p>
-                <a href="{{ route('index') }}">Joshua Trend</a> | 2024
+                <a href="{{ route('index') }}">Joshua Trend</a> | 2025
             </p>
         </footer>
     </div>
