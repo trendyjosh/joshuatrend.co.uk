@@ -9,7 +9,7 @@
         <li><a href="{{ route('projects') }}" {{ $title == 'Projects' ? "aria-current=page" : '' }}>Projects</a></li>
     </ul>
     <ul class="sidebar-socials">
-        <li><a target="_blank" href="https://www.linkedin.com/in/joshua-trend/">LinkedIn</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/joshuatrend">LinkedIn</a></li>
         <li><a target="_blank" href="https://github.com/trendyjosh">GitHub</a></li>
     </ul>
 </nav>
