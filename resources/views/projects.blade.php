@@ -6,6 +6,17 @@
 
     <hr>
 
+    <h2 class="project-title"><a target="_blank" href="https://movieclash.co.uk/">Movie Clash</a></h2>
+    <span class="project-tags">#Laravel, #TailwindCSS, #VueJS</span>
+    <p>A game where the objective is to create the longest chain of related movies and their actors that can be guessed. Answer verification provided by the <a href="https://www.themoviedb.org/">TMDB</a> API.</p>
+    <p>Deployed using Laravel Forge.</p>
+    <figure>
+        <img src="{{ asset('/media/movie-clash.jpg') }}" alt="Movie Clash game page">
+        <figcaption>A solo game being played</figcaption>
+    </figure>
+
+    <hr>
+
     <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/invoice-management-system">Invoice System</a></h2>
     <span class="project-tags">#Laravel, #TailwindCSS, #VueJS, #TypeScript</span>
     <p>A very simple CMS for the purpose of generating invoices for customers.</p>
