@@ -12,10 +12,12 @@
         <h3>Senior PHP Developer</h3>
         <span class="project-tags">October 2022 - present</span>
         <ul>
-            <li>Leading development on full stack Laravel 10/Vue 3 web applications</li>
-            <li>Implementing CI/CD with Docker (Sail) and Laravel Forge</li>
+            <li>Led team on development of full stack Laravel 10/Vue 3 web applications</li>
+            <li>Requirements engineering and large scale systems architecture</li>
+            <li>Implemented CI/CD with Docker (Sail) and Laravel Forge</li>
             <li>Linux server management and configuration</li>
-            <li>Mentoring junior developers and establishing coding standards</li>
+            <li>Built a library of reusable components and packages</li>
+            <li>Mentored junior developers and established coding standards to enable further growth</li>
         </ul>
     </div>
 
@@ -44,9 +46,11 @@
         <span class="project-tags">August 2021 - October 2022</span>
         <ul>
             <li>Development and maintenance of full-stack PHP applications</li>
-            <li>Maintaining a legacy Perl and Javascript-based course booking system</li>
-            <li>Implementing version control and setting up staging environments</li>
-            <li>Working closely with UI/UX designers to meet the needs of clients</li>
+            <li>Maintained large legacy systems</li>
+            <li>Rewrote/refactored in-efficient scripts to drastically reduce response times and server load</li>
+            <li>Solidified client confidence enough to increase spending on development</li>
+            <li>Implemented version control, staging environments and deployment with GitHub actions to resolve issues with the current deployment process</li>
+            <li>Worked closely with UI/UX designers to meet the needs of clients</li>
         </ul>
     </div>
 
