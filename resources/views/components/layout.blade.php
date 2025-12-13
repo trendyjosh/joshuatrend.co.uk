@@ -31,7 +31,7 @@ View the source code here: https://github.com/trendyjosh/joshuatrend.co.uk
 </head>
 
 <body>
-    <div class="grid">
+    <main class="grid">
         <x-nav :title="$title" />
         <article>
             {{ $slot }}
@@ -41,7 +41,7 @@ View the source code here: https://github.com/trendyjosh/joshuatrend.co.uk
                 <a href="{{ route('index') }}">Joshua Trend</a> | 2025
             </p>
         </footer>
-    </div>
+    </main>
 </body>
 
 </html>
