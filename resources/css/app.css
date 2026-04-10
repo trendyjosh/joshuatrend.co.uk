@@ -258,8 +258,8 @@ article li::before {
     left: 0;
 }
 
-.experience-entry > * {
-    padding-left: var(--spacing);
+.job-title {
+    margin-top: 0;
 }
 
 .footer {
