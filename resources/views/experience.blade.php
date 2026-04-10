@@ -6,79 +6,66 @@
 
     <hr>
 
-    <h2>Webscript Designs</h2>
-    <span class="project-tags">October 2022 - present</span>
-    <div class="experience-entry">
-        <h3>Senior PHP Developer</h3>
-        <span class="project-tags">October 2022 - present</span>
-        <ul>
-            <li>Led team on development of full stack Laravel 10/Vue 3 web applications</li>
-            <li>Requirements engineering and large scale systems architecture</li>
-            <li>Implemented CI/CD with Docker (Sail) and Laravel Forge</li>
-            <li>Linux server management and configuration</li>
-            <li>Built a library of reusable components and packages</li>
-            <li>Mentored junior developers and established coding standards to enable further growth</li>
-        </ul>
-    </div>
+    <h2>Vital Parts Ltd</h2>
+    <span class="project-tags">July 2025 - present</span>
+    <h3 class="job-title">Full Stack Developer</h3>
+    <p>Helping improve how software is planned, built, and delivered.</p>
+    <ul>
+        <li>Introduced clearer project planning and requirements to reduce delays and rework</li>
+        <li>Improved development and release processes for more reliable delivery</li>
+        <li>Worked closely with stakeholders to turn ideas into well defined solutions</li>
+    </ul>
+    <span class="project-tags">PrestaShop 9, CodeIgniter 4, Atlassian, Figma</span>
 
     <hr>
 
     <h2>Self Employed</h2>
     <span class="project-tags">June 2017 - present</span>
-    <div class="experience-entry">
-        <h3>PHP Developer</h3>
-        <span class="project-tags">June 2017 - present</span>
-        <ul>
-            <li>Design and Development of full stack PHP/JavaScript and Laravel/Vue web applications</li>
-            <li>Deployment using GitHub Actions or Laravel Forge</li>
-            <li>Linux server management and configuration</li>
-            <li>Meeting with clients to discuss requirements and timelines</li>
-            <li>Migration of data from existing systems</li>
-        </ul>
-    </div>
+    <h3 class="job-title">PHP Developer</h3>
+    <p>Working directly with clients to design and build custom web solutions.</p>
+    <ul>
+        <li>Built bespoke web applications tailored to business needs</li>
+        <li>Managed projects from initial idea through to launch</li>
+        <li>Handled hosting, deployment, and ongoing support</li>
+    </ul>
+    <span class="project-tags">Vanilla PHP, Laravel, Vue 3, Typescript, Docker, Figma</span>
+
+    <hr>
+
+    <h2>Webscript Designs</h2>
+    <span class="project-tags">October 2022 - July 2025</span>
+    <h3 class="job-title">Senior PHP Developer</h3>
+    <p>Building and maintaining scalable web applications for a range of clients.</p>
+    <ul>
+        <li>Delivered full-stack Laravel and Vue applications</li>
+        <li>Improved deployment processes and overall development efficiency</li>
+        <li>Supported and mentored other developers within the team</li>
+    </ul>
+    <span class="project-tags">Laravel, Vue 3, Typescript, Tailwind, Docker</span>
 
     <hr>
 
     <h2>Uprise Digital</h2>
     <span class="project-tags">August 2021 - October 2022</span>
-    <div class="experience-entry">
-        <h3>PHP Developer</h3>
-        <span class="project-tags">August 2021 - October 2022</span>
-        <ul>
-            <li>Development and maintenance of full-stack PHP applications</li>
-            <li>Maintained large legacy systems</li>
-            <li>Rewrote/refactored in-efficient scripts to drastically reduce response times and server load</li>
-            <li>Solidified client confidence enough to increase spending on development</li>
-            <li>Implemented version control, staging environments and deployment with GitHub actions to resolve issues with the current deployment process</li>
-            <li>Worked closely with UI/UX designers to meet the needs of clients</li>
-        </ul>
-    </div>
+    <h3 class="job-title">PHP Developer</h3>
+    <p>Worked on improving performance and reliability of existing systems.</p>
+    <ul>
+        <li>Optimised legacy systems to improve speed and reduce server load</li>
+        <li>Introduced better deployment and development practices</li>
+        <li>Collaborated with designers to deliver user focused features</li>
+    </ul>
+    <span class="project-tags">Perl, PHP, JavaScript, Bootstrap, GitHub Actions</span>
 
     <hr>
 
     <h2>NHS Trust</h2>
-    <span class="project-tags">January 2017 - August 2021</span>
-    <div class="experience-entry">
-        <h3>Clinical Systems Analyst</h3>
-        <span class="project-tags">October 2020 - August 2021</span>
-        <ul>
-            <li>Liaising with different departments to determine requirements of new and existing internal systems</li>
-            <li>QA testing new systems</li>
-            <li>SQL database management</li>
-        </ul>
-    </div>
-    <div class="experience-entry">
-        <h3>Clinical Systems Support</h3>
-        <span class="project-tags">July 2019 - October 2020</span>
-        <ul>
-            <li>1st and 2nd line support for clinical systems</li>
-            <li>Delivering systems training to new staff</li>
-            <li>Support during new system rollouts</li>
-            <li>Running complex SQL queries to generate reports for various department heads</li>
-        </ul>
-    </div>
-    <div class="experience-entry">
-        <h3>Health Records Clerk</h3>
-        <span class="project-tags">January 2017 - July 2019</span>
-    </div>
+    <span class="project-tags">July 2019 - August 2021</span>
+    <h3 class="job-title">Clinical Systems</h3>
+    <p>Early experience working with internal systems, data, and end users in a large organisation.</p>
+    <ul>
+        <li>Supported and maintained clinical systems used across multiple departments</li>
+        <li>Worked with stakeholders to understand requirements and improve system usability</li>
+        <li>Produced reports and insights using SQL to support operational decision making</li>
+    </ul>
+    <span class="project-tags">MySQL, VBA</span>
 </x-layout>
