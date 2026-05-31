@@ -36,9 +36,25 @@
 
     <hr>
 
+    <h2 class="project-title"><a target="_blank" href="https://beercompass.co.uk/">Beer Compass</a></h2>
+    <span class="project-tags">#Laravel, #Blade, #TailwindCSS</span>
+    <p>An app to show users their nearest pub, wherever they are in the UK.</p>
+    <p>Deployed using Laravel Forge.</p>
+    <figure>
+        <picture>
+            <source srcset="{{ asset('/media/beercompass.webp') }}" type="image/webp">
+            <img src="{{ asset('/media/beercompass.jpg') }}" alt="Beer Compass App" 
+                width="607" height="341" fetchpriority="high">
+        </picture>
+        <figcaption>The app pointing to the nearest pub</figcaption>
+    </figure>
+
+    <hr>
+
     <h2 class="project-title"><a target="_blank" href="https://camerontrenddesign.co.uk/">Garden Design Portfolio</a></h2>
     <span class="project-tags">#Laravel, #Blade, #TailwindCSS, #VueJS</span>
     <p>A Garden Design portfolio website and basic CMS for a Garden Designer in Kent to showcase completed projects. Developed with vanilla CSS and JavaScript for the front-end site, then Tailwind and VueJS for the admin panel. The site also makes use of the Instagram API to display the most recent posts.</p>
+    <p>Deployed using Laravel Forge.</p>
     <figure>
         <picture>
             <source srcset="{{ asset('/media/cameron-trend-design.webp') }}" type="image/webp">
@@ -48,7 +64,6 @@
         <figcaption>The website landing page</figcaption>
     </figure>
     <p>Future development will include traffic metrics provided by the Cloudflare Graph API.</p>
-    <p>Deployed using Laravel Forge.</p>
 
     <hr>
 
