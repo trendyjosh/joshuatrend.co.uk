@@ -36,6 +36,21 @@
 
     <hr>
 
+    <h2 class="project-title"><a target="_blank" href="https://easybooktraining.co.uk">Easybook Training</a></h2>
+    <span class="project-tags">#Laravel, #TailwindCSS, #VueJS, #TypeScript</span>
+    <p>Led a team of four developers on an 18-month project to replace a large legacy Perl system with a modern, redesigned web application and administration platform. Took ownership of the architecture and full-stack development, helping shape requirements, guiding technical decisions, and delivering key features from the ground up. Also managed the handover to an external engineering team for ongoing maintenance ahead of production launch.</p>
+    <p>Deployed using Laravel Forge.</p>
+    <figure>
+        <picture>
+            <source srcset="{{ asset('/media/easybooktraining.webp') }}" type="image/webp">
+            <img src="{{ asset('/media/easybooktraining.jpg') }}" alt="Easybook Training Landing Page" 
+                width="607" height="330" fetchpriority="high">
+        </picture>
+        <figcaption>Easybook Training landing page</figcaption>
+    </figure>
+
+    <hr>
+
     <h2 class="project-title"><a target="_blank" href="https://beercompass.co.uk/">Beer Compass</a></h2>
     <span class="project-tags">#Laravel, #Blade, #TailwindCSS</span>
     <p>An app to show users their nearest pub, wherever they are in the UK.</p>
