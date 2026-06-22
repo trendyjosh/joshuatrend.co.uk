@@ -234,6 +234,7 @@ article hr {
 
 figure img {
     width: 100%;
+    height: auto;
     border: 1px solid var(--fg);
 }
 

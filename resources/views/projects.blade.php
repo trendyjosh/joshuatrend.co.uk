@@ -8,7 +8,7 @@
 
     <h2 class="project-title"><a target="_blank" href="https://movieclash.co.uk/">Movie Clash</a></h2>
     <span class="project-tags">#Laravel, #TailwindCSS, #VueJS</span>
-    <p>A game where the objective is to create the longest chain of related movies and their actors that can be guessed. Answer verification provided by the <a href="https://www.themoviedb.org/">TMDB</a> API.</p>
+    <p>Designed and developed a movie trivia game where players create the longest possible chain of related films and actors. Built the game logic, integrated with the <a href="https://www.themoviedb.org/">TMDB</a> API for answer validation, and implemented a responsive user interface.</p>
     <p>Deployed using Laravel Forge.</p>
     <figure>
         <picture>
@@ -23,7 +23,7 @@
 
     <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/invoice-management-system">Invoice System</a></h2>
     <span class="project-tags">#Laravel, #TailwindCSS, #VueJS, #TypeScript</span>
-    <p>A very simple CMS for the purpose of generating invoices for customers.</p>
+    <p>Designed and developed a lightweight invoicing CMS, enabling customer management and invoice generation. Built the full-stack application, including the data model, administrative interface, and invoice creation workflow.</p>
     <p>Deployed using Laravel Forge.</p>
     <figure>
         <picture>
@@ -36,9 +36,24 @@
 
     <hr>
 
+    <h2 class="project-title"><a target="_blank" href="https://easybooktraining.co.uk">Easybook Training</a></h2>
+    <span class="project-tags">#Laravel, #TailwindCSS, #VueJS, #TypeScript</span>
+    <p>Led a team of four developers on an 18-month project to replace a large legacy Perl system with a modern, redesigned web application and administration platform. Took ownership of the architecture and full-stack development, helping shape requirements, guiding technical decisions, and delivering key features from the ground up. Also managed the handover to an external engineering team for ongoing maintenance ahead of production launch.</p>
+    <p>Deployed using Laravel Forge.</p>
+    <figure>
+        <picture>
+            <source srcset="{{ asset('/media/easybooktraining.webp') }}" type="image/webp">
+            <img src="{{ asset('/media/easybooktraining.jpg') }}" alt="Easybook Training Landing Page" 
+                width="607" height="330" fetchpriority="high">
+        </picture>
+        <figcaption>Easybook Training landing page</figcaption>
+    </figure>
+
+    <hr>
+
     <h2 class="project-title"><a target="_blank" href="https://beercompass.co.uk/">Beer Compass</a></h2>
     <span class="project-tags">#Laravel, #Blade, #TailwindCSS</span>
-    <p>An app to show users their nearest pub, wherever they are in the UK.</p>
+    <p>Designed and developed a location-based web application that helps users discover their nearest pub anywhere in the UK. Implemented geospatial data processing and location search functionality, alongside a responsive front-end experience.</p>
     <p>Deployed using Laravel Forge.</p>
     <figure>
         <picture>
@@ -53,7 +68,7 @@
 
     <h2 class="project-title"><a target="_blank" href="https://camerontrenddesign.co.uk/">Garden Design Portfolio</a></h2>
     <span class="project-tags">#Laravel, #Blade, #TailwindCSS, #VueJS</span>
-    <p>A Garden Design portfolio website and basic CMS for a Garden Designer in Kent to showcase completed projects. Developed with vanilla CSS and JavaScript for the front-end site, then Tailwind and VueJS for the admin panel. The site also makes use of the Instagram API to display the most recent posts.</p>
+    <p>Designed and developed a portfolio website and bespoke CMS for a garden designer to showcase completed projects and manage website content. Built the public-facing site using vanilla JavaScript and CSS, developed an administrative interface using Tailwind CSS and Vue.js, and integrated the Instagram API to automatically display recent social media posts.</p>
     <p>Deployed using Laravel Forge.</p>
     <figure>
         <picture>
@@ -64,22 +79,4 @@
         <figcaption>The website landing page</figcaption>
     </figure>
     <p>Future development will include traffic metrics provided by the Cloudflare Graph API.</p>
-
-    <hr>
-
-    <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/joshtea-bot">Discord Music Player</a></h2>
-    <span class="project-tags">#NodeJS, #TypeScript</span>
-    <p>A Discord bot to queue and play music in a voice channel. Written in TypeScript and built with the <a href="https://www.sapphirejs.dev/">Sapphire</a> Discord.js framework.</p>
-
-    <hr>
-
-    <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/cocktail-bot">Cocktail Recipe Lookup</a></h2>
-    <span class="project-tags">#NodeJS, #TypeScript</span>
-    <p>A Discord bot to find cocktails by name or ingredients and display the preparation instructions. Written in TypeScript and built with the <a href="https://www.sapphirejs.dev/">Sapphire</a> Discord.js framework.</p>
-
-    <hr>
-
-    <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/clickup-bot">Discord ClickUp WIP</a></h2>
-    <span class="project-tags">#NodeJS, #TypeScript</span>
-    <p>A Discord bot to create and manage <a href="https://clickup.com/">ClickUp</a> tasks by interfacing with the ClickUp API. Written in TypeScript and built with the <a href="https://www.sapphirejs.dev/">Sapphire</a> Discord.js framework.</p>
 </x-layout>
