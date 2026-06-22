@@ -21,7 +21,7 @@
 
     <hr>
 
-    <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/invoice-management-system">Invoice System</a></h2>
+    <h2 class="project-title"><a target="_blank" href="https://github.com/trendyjosh/invoice-management-system">Trendy Invoices</a></h2>
     <span class="project-tags">#Laravel, #TailwindCSS, #VueJS, #TypeScript</span>
     <p>Designed and developed a lightweight invoicing CMS, enabling customer management and invoice generation. Built the full-stack application, including the data model, administrative interface, and invoice creation workflow.</p>
     <p>Deployed using Laravel Forge.</p>
