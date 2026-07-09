@@ -32,18 +32,18 @@ View the source code here: https://github.com/trendyjosh/joshuatrend.co.uk
 </head>
 
 <body>
-    <main class="grid">
-        <x-nav :title="$title" />
-        <article>
-            {{ $slot }}
-        </article>
-        <footer class="footer">
-            <p>
-                <a href="{{ Statamic::tag('link')->id('2c127fab-1131-40c6-bea8-b23d5bd6f923') }}">Joshua Trend</a> |
-                2025
-            </p>
-        </footer>
+    <x-nav :title="$title" />
+
+    <main>
+        {{ $slot }}
     </main>
+
+    <footer>
+        <p>
+            <a href="{{ Statamic::tag('link')->id('2c127fab-1131-40c6-bea8-b23d5bd6f923') }}">Joshua Trend</a> |
+            2025
+        </p>
+    </footer>
 </body>
 
 </html>
