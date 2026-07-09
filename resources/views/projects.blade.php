@@ -16,12 +16,11 @@
         <p>{{ $project->get('summary') }}</p>
 
         @if ($image = $project->get('image'))
-            <img src="{{ $image }}.jpg" alt="{{ $project->get('title') }}">
             <figure>
                 <picture>
                     <source srcset="{{ asset('/media/' . $image . '.webp') }}" type="image/webp">
-                    <img src="{{ asset('/media/' . $image . '.jpg') }}" alt="{{ $project->get('title') }}"
-                        width="607" height="361" fetchpriority="high">
+                    <img src="{{ asset('/media/' . $image . '.jpg') }}" alt="{{ $project->get('title') }}" width="607"
+                        height="361" fetchpriority="high">
                 </picture>
                 <figcaption>{{ $project->get('caption') }}</figcaption>
             </figure>

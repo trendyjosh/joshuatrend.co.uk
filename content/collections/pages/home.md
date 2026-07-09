@@ -11,8 +11,8 @@ In my spare time I enjoy camping, hiking, playing football and drinking beer.
 
 <figure>
     <picture>
-        <source srcset="{{ asset('/media/joshua-trend.webp') }}" type="image/webp">
-        <img src="{{ asset('/media/joshua-trend.jpg') }}" alt="Joshua Trend" width="607" height="361"
+        <source srcset="/media/joshua-trend.webp" type="image/webp">
+        <img src="/media/joshua-trend.jpg" alt="Joshua Trend" width="607" height="361"
             fetchpriority="high">
     </picture>
 </figure>
