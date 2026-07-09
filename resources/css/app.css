@@ -181,7 +181,7 @@ figure img {
     height: auto;
     border: 1px solid var(--fg);
     position: relative;
-    left: calc(var(--spacing) * -6);
+    left: calc(var(--spacing) * -9);
 }
 
 figure figcaption {
