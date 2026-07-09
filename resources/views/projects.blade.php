@@ -7,7 +7,7 @@
 
     <hr>
 
-    @foreach (Statamic\Facades\Entry::query()->where('collection', 'projects')->get() as $project)
+    @foreach (Statamic::tag('collection:projects')->params(['sort' => 'order'])->fetch() as $project)
         <article>
             <h2 class="project-title">
                 <a target="_blank" href="{{ $project->get('link') }}">{{ $project->get('title') }}</a>
