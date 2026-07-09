@@ -7,7 +7,7 @@
 
     <hr>
 
-    @foreach (Statamic\Facades\Entry::query()->where('collection', 'experience')->get() as $experience)
+    @foreach (Statamic::tag('collection:experience')->params(['sort' => 'order'])->fetch() as $experience)
         <article>
             <h2>
                 {{ $experience->get('company') }}
