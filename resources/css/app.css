@@ -175,7 +175,7 @@ article {
     border-left: 1px solid var(--fg);
 }
 
-article > *:not(header, ul) {
+article > *:not(header, ul, h3) {
     margin-top: calc(var(--spacing) * 2);
 }
 
@@ -238,9 +238,13 @@ figure img {
     border: 1px solid var(--fg);
 }
 
-.project-tags {
+.project-tags, .job-date, .job-tags {
     font-size: var(--text-sm);
     color: var(--text-secondary);
+}
+
+.job-date, .job-tags {
+    margin: 0;
 }
 
 article ul {
@@ -259,7 +263,7 @@ article li::before {
     left: 0;
 }
 
-.job-title {
+h3 {
     margin-top: 0;
 }
 
