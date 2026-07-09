@@ -5,4 +5,4 @@ title: Projects
 template: projects
 ---
 
-A selection of past and current personal projects I have worked on in my spare time.
+A selection of personal and client projects I've built.
