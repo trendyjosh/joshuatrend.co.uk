@@ -218,6 +218,23 @@ h3 {
     margin-top: 0;
 }
 
+.project-pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(var(--spacing) * 2);
+    padding-top: 0;
+}
+
+.project-pagination a[rel="next"] {
+    margin-left: auto;
+}
+
+.project-link a:hover:after {
+    color: var(--text-secondary);
+    content: "→";
+    font-family: system-ui;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;

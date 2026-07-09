@@ -2,4 +2,5 @@ title: Projects
 structure:
   root: false
   max-depth: 1
-route: false
+route: "/projects/{slug}"
+template: project

@@ -26,6 +26,12 @@
                     <figcaption>{{ $project->get('caption') }}</figcaption>
                 </figure>
             @endif
+
+            <p class="project-link">
+                <a href="{{ $project->url }}">
+                    Read more
+                </a>
+            </p>
         </article>
 
         @if (!$loop->last)
