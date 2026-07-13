@@ -16,10 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 // Training providers.
 Route::controller(Controller::class)->group(function () {
-    // Home page
-    Route::get('/', 'index')->name('index');
-    // Experience
-    Route::get('/experience', 'experience')->name('experience');
-    // Projects
-    Route::get('/projects', 'projects')->name('projects');
+    // // Home page
+    // Route::get('/', 'index')->name('index');
+    // // Experience
+    // Route::get('/experience', 'experience')->name('experience');
+    // // Projects
+    // Route::get('/projects', 'projects')->name('projects');
 });

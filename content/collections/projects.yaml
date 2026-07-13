@@ -1,0 +1,6 @@
+title: Projects
+structure:
+  root: false
+  max-depth: 1
+route: "/projects/{slug}"
+template: project
