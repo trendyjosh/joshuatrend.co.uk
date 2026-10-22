@@ -4,7 +4,7 @@ blueprint: experience
 title: 'Vital Parts'
 template: experience
 company: 'Vital Parts Ltd'
-years: 'July 2025 - present'
+years: 'July 2025 - September 2026'
 role: 'Full Stack Developer'
 summary: 'Helping improve how software is planned, built, and delivered.'
 tasks:
