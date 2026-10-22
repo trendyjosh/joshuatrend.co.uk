@@ -1,0 +1,64 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: company
+            field:
+              type: text
+              display: Company
+          -
+            handle: role
+            field:
+              type: text
+              display: Role
+          -
+            handle: years
+            field:
+              type: text
+              display: Years
+          -
+            handle: summary
+            field:
+              type: text
+              display: Summary
+          -
+            handle: tasks
+            field:
+              type: list
+              display: Tasks
+          -
+            handle: skills
+            field:
+              type: list
+              display: Skills
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - experience
+              max_items: 1
+              listable: false
+              localizable: true
+title: Experience
