@@ -40,8 +40,10 @@ View the source code here: https://github.com/trendyjosh/joshuatrend.co.uk
 
     <footer>
         <p>
-            <a href="{{ Statamic::tag('link')->id('2c127fab-1131-40c6-bea8-b23d5bd6f923') }}">Joshua Trend</a> |
-            2026
+            <a href="{{ Statamic::tag('link')->id('2c127fab-1131-40c6-bea8-b23d5bd6f923') }}">
+                Joshua Trend
+            </a> |
+            {{ date("Y") }}
         </p>
     </footer>
 </body>
