@@ -3,7 +3,7 @@ id: 9edcf17e-9db1-464d-ba12-681c726c23c8
 blueprint: experience
 title: 'Cyro Cyber'
 updated_by: 9fe91334-a99e-4e78-9228-a22e7b3ce5d8
-updated_at: 1792629684
+updated_at: 1792630191
 company: 'Cyro Cyber'
 role: 'Software Engineer'
 years: 'September 2026 - present'
@@ -16,4 +16,5 @@ tasks:
 skills:
   - Laravel
   - Bootstrap
+  - Python
 ---
