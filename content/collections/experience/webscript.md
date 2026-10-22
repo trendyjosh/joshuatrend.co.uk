@@ -1,6 +1,7 @@
 ---
 id: 6a6e0782-4954-42bc-a2dd-f8db984a49f6
 blueprint: experience
+title: Webscript
 template: experience
 company: 'Webscript Designs'
 years: 'October 2022 - July 2025'

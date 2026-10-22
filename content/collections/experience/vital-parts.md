@@ -1,6 +1,7 @@
 ---
 id: b2592bac-9ee0-4fa1-a6e2-b6c8313c01f4
 blueprint: experience
+title: 'Vital Parts'
 template: experience
 company: "Vital Parts Ltd"
 years: "July 2025 - present"

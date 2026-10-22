@@ -1,6 +1,7 @@
 ---
 id: c34aa2ca-1aad-4e9e-b9b0-c2b14395f563
 blueprint: experience
+title: 'Uprise Digital'
 template: experience
 company: 'Uprise Digital'
 years: 'August 2021 - October 2022'

@@ -1,6 +1,7 @@
 ---
 id: 6fb1b246-f759-427b-a989-86ebd65bf57e
 blueprint: experience
+title: 'Self Employed'
 template: experience
 company: 'Self Employed'
 years: 'June 2017 - present'
